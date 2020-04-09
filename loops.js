@@ -5,12 +5,14 @@ function whileLoop(n) {
             console.log("I run once regardless");
             n -= 1;
           }
+        }
         else {
             console.log(n);
             n -= 1;
           }
         }
-      }
         console.log("I run once regardless");
         return 'done';
-    }
+      }
+
+
