@@ -14,5 +14,3 @@ function whileLoop(n) {
         console.log("I run once regardless");
         return 'done';
       }
-
-
