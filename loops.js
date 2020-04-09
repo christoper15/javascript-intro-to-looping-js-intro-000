@@ -2,11 +2,11 @@
 
 
 function doWhileLoop(n) {
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
   do {
-    function incrementVariable() {
-      i = i + 1;
-      return i;
-    }
     console.log("I run once regardless.");
   } while (incrementVariable() < n);
 }
