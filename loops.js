@@ -17,6 +17,9 @@ function whileLoop(n) {
             console.log("I run once regardless");
             n -= 1;
           }
+        else {
+            n -= 1;
+          }  
         }
       }
         console.log("I run once regardless");
