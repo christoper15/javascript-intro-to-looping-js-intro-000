@@ -6,6 +6,7 @@ function whileLoop(n) {
             n -= 1;
           }
         else {
+            console.log(n);
             n -= 1;
           }
         }
