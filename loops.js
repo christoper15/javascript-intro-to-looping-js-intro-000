@@ -1,7 +1,7 @@
 function whileLoop(n) {
     while (n>0) {
         if (n == 10) {
-          while (n > 10) {
+          while (n > 0) {
             console.log("I run once regardless");
             n -= 1;
           }
