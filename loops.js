@@ -1,7 +1,11 @@
-function whileLoop(n) {
-    while (n > 0) {
-            console.log(n);
-            n -= 1;
-          }
-        return 'done';
-      }
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+
+
+function doWhileLoop(n) {
+  do {
+    console.log("I run once regardless.");
+  } while (incrementVariable() < n);
+}
