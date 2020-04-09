@@ -19,7 +19,7 @@ function whileLoop(n) {
           }
         else {
             n -= 1;
-          }  
+          }
         }
       }
         console.log("I run once regardless");
